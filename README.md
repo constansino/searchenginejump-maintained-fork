@@ -21,8 +21,8 @@
 #### 图 1：用户价值流程
 ![用户价值流程](docs/images/value-flow.svg)
 
-#### 图 2：Google 定位热修复流程
-![Google 定位热修复流程](docs/images/google-hotfix-flow.svg)
+#### 图 2：Google 定位稳定流程
+![Google 定位稳定流程](docs/images/google-hotfix-flow.svg)
 
 ### 本地使用与升级（含旧数据兼容）
 
@@ -35,9 +35,8 @@
 #### 你现在需要做的
 1. 安装或更新主脚本：  
    `https://raw.githubusercontent.com/constansino/searchenginejump-maintained-fork/main/scripts/searchEngineJump_google_anchor_test.user.js`
-2. 若你只想补 Google 定位，可额外安装热修：  
-   `https://raw.githubusercontent.com/constansino/searchenginejump-maintained-fork/main/scripts/SEJ_Google_Position_Hotfix.user.js`
-3. 刷新 Google 结果页验证：跳转栏应贴合搜索框下方。
+2. 刷新 Google 结果页验证：跳转栏应贴合搜索框下方。
+3. 仓库当前只保留这一个可安装脚本，不再拆分热修脚本。
 
 ### 旧数据迁移说明
 
@@ -56,8 +55,6 @@
 ```text
 scripts/
   searchEngineJump_google_anchor_test.user.js   # 主维护脚本（建议安装）
-  SEJ_Google_Position_Hotfix.user.js            # Google 定位热修
-  searchEngineJump_5.26.7_upstream.user.js      # 上游基线参考
 
 docs/images/
   value-flow.svg
@@ -85,5 +82,3 @@ This allows Tampermonkey to treat it as an upgrade path and reuse legacy `search
 ### Quick install
 - Main script:  
   `https://raw.githubusercontent.com/constansino/searchenginejump-maintained-fork/main/scripts/searchEngineJump_google_anchor_test.user.js`
-- Google hotfix:  
-  `https://raw.githubusercontent.com/constansino/searchenginejump-maintained-fork/main/scripts/SEJ_Google_Position_Hotfix.user.js`
