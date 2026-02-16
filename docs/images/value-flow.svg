@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-label="SearchEngineJump user value flow">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f3f8ff"/>
+      <stop offset="100%" stop-color="#edfdf4"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#355070"/>
+    </marker>
+    <style>
+      .title { font: 700 34px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #1f2937; }
+      .sub { font: 500 18px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #334155; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; rx: 18; }
+      .step { font: 700 20px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #0f172a; }
+      .desc { font: 500 16px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #334155; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <text x="40" y="56" class="title">Why SearchEngineJump Works Well | 为什么好用</text>
+  <text x="40" y="88" class="sub">One query, fast cross-engine validation, lower context-switch cost</text>
+
+  <rect class="box" x="40" y="150" width="220" height="260"/>
+  <text x="66" y="192" class="step">1) Type once</text>
+  <text x="66" y="226" class="desc">输入一次关键词</text>
+  <text x="66" y="258" class="desc">Keep search intent</text>
+  <text x="66" y="290" class="desc">保留搜索上下文</text>
+
+  <rect class="box" x="300" y="150" width="220" height="260"/>
+  <text x="326" y="192" class="step">2) Jump bar</text>
+  <text x="326" y="226" class="desc">页面内直接跳转</text>
+  <text x="326" y="258" class="desc">No retyping query</text>
+  <text x="326" y="290" class="desc">无需重复输入</text>
+
+  <rect class="box" x="560" y="150" width="220" height="260"/>
+  <text x="586" y="192" class="step">3) Compare</text>
+  <text x="586" y="226" class="desc">跨引擎快速对比</text>
+  <text x="586" y="258" class="desc">Web / Video / Image</text>
+  <text x="586" y="290" class="desc">多维结果视角</text>
+
+  <rect class="box" x="820" y="150" width="220" height="260"/>
+  <text x="846" y="192" class="step">4) Validate</text>
+  <text x="846" y="226" class="desc">交叉验证信息</text>
+  <text x="846" y="258" class="desc">Reduce blind spots</text>
+  <text x="846" y="290" class="desc">减少信息盲区</text>
+
+  <rect class="box" x="1080" y="150" width="160" height="260"/>
+  <text x="1098" y="192" class="step">5) Decide</text>
+  <text x="1098" y="226" class="desc">更快做判断</text>
+  <text x="1098" y="258" class="desc">Higher confidence</text>
+  <text x="1098" y="290" class="desc">更高把握度</text>
+
+  <line x1="260" y1="280" x2="300" y2="280" stroke="#355070" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="520" y1="280" x2="560" y2="280" stroke="#355070" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="780" y1="280" x2="820" y2="280" stroke="#355070" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1040" y1="280" x2="1080" y2="280" stroke="#355070" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="40" y="500" class="sub">Typical savings: 3-5 fewer actions per engine switch while keeping the same query.</text>
+</svg>
