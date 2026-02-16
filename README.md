@@ -72,6 +72,13 @@ docs/images/
    - **中文：** 仅需修复 Google 页面定位问题时可单独安装；也可叠加在已有 SEJ 脚本上。  
    - **English:** Install this alone for Google positioning fixes, or layer it on top of an existing SEJ install.
 
+## Quick Install Links / 一键安装链接
+
+- **Main maintained script / 主维护脚本**  
+  https://raw.githubusercontent.com/constansino/searchenginejump-maintained-fork/main/scripts/searchEngineJump_google_anchor_test.user.js
+- **Google hotfix script / Google 热修复脚本**  
+  https://raw.githubusercontent.com/constansino/searchenginejump-maintained-fork/main/scripts/SEJ_Google_Position_Hotfix.user.js
+
 ## Installation / 安装步骤
 
 1. Install Tampermonkey (or compatible userscript manager). / 安装 Tampermonkey 或兼容脚本管理器。
